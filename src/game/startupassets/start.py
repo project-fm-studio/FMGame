@@ -43,7 +43,6 @@ def update_frame():
         root.after(30, update_frame)  # Update every 30 milliseconds
     else:
         cap.release()
-start_game = mainloop
 
 # Start updating the frame
 update_frame()
